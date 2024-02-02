@@ -1,0 +1,15 @@
+CC=		i686-w64-mingw32-gcc 
+
+CFLAGS=		-Wall -Wextra -Os -fPIE
+LDFLAGS=	-s -nostdlib
+LDLIBS=		-lkernel32 -luser32
+
+all: paste.exe
+
+clean:
+	rm -f paste.exe
+
+paste.exe: paste.c
+	${CC} ${CFLAGS} ${LDFLAGS} -o paste.exe paste.c ${LDLIBS}
+
+.PHONY: all clean
