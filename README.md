@@ -20,12 +20,12 @@ Requires [MinGW-w64](https://www.mingw-w64.org/).
 
 Installing
 ----------
- 1. Download [a release][1] or build with MinGW and place *paste.exe*
+ 1. Download [a release][3] or build with MinGW and place *paste.exe*
     somewhere convenient.
- 2. Add its location of [to your `%PATH%`][2].
+ 2. Add its location of [to your `%PATH%`][4].
 
-[1]: https://github.com/sjmulder/paste/releases
-[2]: https://www.howtogeek.com/787217/how-to-edit-environment-variables-on-windows-10-or-11/
+[3]: https://github.com/sjmulder/paste/releases
+[4]: https://www.howtogeek.com/787217/how-to-edit-environment-variables-on-windows-10-or-11/
 
 Author
 ------
